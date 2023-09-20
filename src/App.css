@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+input {
+  border-color: #827f7f !important;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputLabel {
+  color: #827f7f;
+  font-weight: 500;
+}
+
+.inputElement {
+  height: 30px;
+  border-color: #827f7f !important;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.loginContainer {
+  width: 300px;
+}
+
+.helloTitle {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.conditioBox {
+  margin: 30px 0px;
+  display: flex;
+  align-items: flex-start;
+}
+.condition {
+  text-align: justify;
+  font-size: 14px;
+  margin-left: 7px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.submitButton {
+  width: 323.2px;
+  background: #646adc42;
+  height: 53px;
+  color: #2d2daf;
+  font-weight: 700;
+}
