@@ -11,3 +11,8 @@ this is not a CRA project
 so please use below commands after clone
 npm install
 npm run dev
+
+
+I have deployed the app on Vercel
+So you can check deployed version as well
+https://wissen-ui-coding-challange.vercel.app/
